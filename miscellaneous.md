@@ -17,3 +17,7 @@ Checkov passes (exit 0): the Lambda assumes the deployment role in the target De
 Apply, destroy and every other Terraform command beyond plan are only available through this pipeline. CodeBuild's CloudWatch logs go back to the Compliance account through Kinesis into Redshift. Those build logs are the only thing stored in Redshift; plan and scan results are not.
 
 <img width="672" height="694" alt="image" src="https://github.com/user-attachments/assets/821acd43-fdd1-4a40-9508-b9d533866b2a" />
+
+Another view
+
+<img width="1402" height="868" alt="image" src="https://github.com/user-attachments/assets/bbec439b-3be6-4bd1-8631-4f780225a680" />
